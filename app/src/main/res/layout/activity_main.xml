@@ -25,7 +25,7 @@
         <Button
             android:id="@+id/lumiBtn"
             android:layout_width="match_parent"
-            android:layout_height="67dp"
+            android:layout_height="60dp"
             android:layout_marginTop="200dp"
             android:background="@android:color/transparent"
             android:text="Luminosidade" />
@@ -33,24 +33,26 @@
         <Button
             android:id="@+id/proxiBtn"
             android:layout_width="match_parent"
-            android:layout_height="67dp"
+            android:layout_height="60dp"
             android:layout_marginTop="20dp"
             android:text="Proximidade"
             android:background="@android:color/transparent"/>
 
         <Button
-            android:id="@+id/acelBtn"
+            android:id="@+id/accelBtn"
             android:layout_width="match_parent"
-            android:layout_height="67dp"
+            android:layout_height="60dp"
             android:layout_marginTop="20dp"
             android:text="Acelerômetro"
-            android: android:background="@android:color/transparent"/>
+            android:background="@android:color/transparent"/>
 
         <Button
             android:id="@+id/giroBtn"
             android:layout_width="match_parent"
-            android:layout_height="67dp"
-            android:text="Giroscópio" />
+            android:layout_height="60dp"
+            android:layout_marginTop="20dp"
+            android:text="Giroscópio"
+            android:background="@android:color/transparent"/>
 
     </LinearLayout>
 

@@ -15,5 +15,9 @@ class MainActivity : AppCompatActivity() {
             val i = Intent(this, LumiActivity::class.java)
             startActivity(i)
         }
+        accelBtn.setOnClickListener{
+            val i = Intent(this, AccelActivity::class.java)
+            startActivity(i)
+        }
     }
 }
