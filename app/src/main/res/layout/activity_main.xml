@@ -31,28 +31,28 @@
             android:text="Luminosidade" />
 
         <Button
-            android:id="@+id/proxiBtn"
-            android:layout_width="match_parent"
-            android:layout_height="60dp"
-            android:layout_marginTop="20dp"
-            android:text="Proximidade"
-            android:background="@android:color/transparent"/>
-
-        <Button
             android:id="@+id/accelBtn"
             android:layout_width="match_parent"
             android:layout_height="60dp"
             android:layout_marginTop="20dp"
-            android:text="Acelerômetro"
-            android:background="@android:color/transparent"/>
+            android:background="@android:color/transparent"
+            android:text="Acelerômetro" />
 
         <Button
-            android:id="@+id/giroBtn"
+            android:id="@+id/gyroBtn"
             android:layout_width="match_parent"
             android:layout_height="60dp"
             android:layout_marginTop="20dp"
             android:text="Giroscópio"
             android:background="@android:color/transparent"/>
+
+        <Button
+            android:id="@+id/proxiBtn"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="20dp"
+            android:background="@android:color/transparent"
+            android:text="Proximidade" />
 
     </LinearLayout>
 

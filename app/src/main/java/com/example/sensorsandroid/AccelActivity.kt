@@ -59,5 +59,4 @@ class AccelActivity : AppCompatActivity(), SensorEventListener {
         super.onPause()
         sensorManager?.unregisterListener(this)
     }
-
 }

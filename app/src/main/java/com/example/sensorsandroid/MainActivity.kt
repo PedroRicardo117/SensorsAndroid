@@ -19,5 +19,10 @@ class MainActivity : AppCompatActivity() {
             val i = Intent(this, AccelActivity::class.java)
             startActivity(i)
         }
+
+        gyroBtn.setOnClickListener(){
+            val i = Intent(this, GyroActivity::class.java)
+            startActivity(i)
+        }
     }
 }
