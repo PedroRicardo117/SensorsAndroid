@@ -33,10 +33,14 @@ class ProxiActivity : AppCompatActivity(), SensorEventListener {
 
     override fun onSensorChanged(event: SensorEvent?) {
         var proximidade = event!!.values[0]
+
+            // proximidade do < que 5cm - it's working
             if(proximidade >= 5){
                 proxiSwitch.setImageResource(R.drawable.doyourjob)
+                proxiResult.setText(proximidade.toString() + "cm")
             }else{
                 proxiSwitch.setImageResource(R.drawable.fry)
+                proxiResult.setText(proximidade.toString() + "cm")
             }
     }
     override fun onResume() {

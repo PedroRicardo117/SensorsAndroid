@@ -8,7 +8,7 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="260dp"
+        android:layout_width="195dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
@@ -16,15 +16,34 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="70dp"
-        android:layout_marginLeft="70dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginLeft="60dp"
         android:layout_marginTop="131dp"
-        android:layout_marginEnd="81dp"
-        android:layout_marginRight="81dp"
+        android:layout_marginEnd="156dp"
+        android:layout_marginRight="156dp"
         android:layout_marginBottom="552dp"
         android:gravity="center"
-        android:text="Proximidade"
+        android:text="Proximidade: "
         android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/proxiResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="255dp"
+        android:layout_marginLeft="255dp"
+        android:layout_marginTop="135dp"
+        android:layout_marginEnd="68dp"
+        android:layout_marginRight="68dp"
+        android:layout_marginBottom="554dp"
+        android:gravity="center"
+        android:textSize="24sp" />
 
 
     <ImageView
@@ -67,5 +86,7 @@
         android:textColorHighlight="#00000000"
         android:textColorHint="#000000"
         android:textColorLink="#F80000" />
+
+
 
 </RelativeLayout>
