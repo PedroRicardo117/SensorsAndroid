@@ -24,5 +24,9 @@ class MainActivity : AppCompatActivity() {
             val i = Intent(this, GyroActivity::class.java)
             startActivity(i)
         }
+        proxiBtn.setOnClickListener(){
+            val i = Intent(this, ProxiActivity::class.java)
+            startActivity(i)
+        }
     }
 }
